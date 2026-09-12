@@ -1,0 +1,11 @@
+{
+  "name": "bojaghi-boilerplate-plugin",
+  "scripts": {
+    "wp-env": "wp-env",
+    "wp-env:start": "wp-env start",
+    "wp-env:start:xdebug": "wp-env start --xdebug=trace,debug",
+    "composer": "wp-env run cli --env-cwd=wp-content/plugins/boilerplate-plugin composer",
+    "phpunit": "wp-env run cli --env-cwd=wp-content/plugins/boilerplate-plugin ./vendor/bin/phpunit",
+    "wp": "wp-env run cli --env-cwd=wp-content/plugins/boilerplate-plugin wp"
+  }
+}

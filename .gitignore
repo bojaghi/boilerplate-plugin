@@ -1,0 +1,22 @@
+.idea/
+.vscode/
+node_modules/
+
+.DS_Store
+.env.*
+
+*.cache
+
+/bin/
+/tests/wp-core/
+/tests/wp-tests/
+/vendor/
+
+# Not for real plugins
+/composer.lock
+/.phpcs.xml
+/.phpcs.xml.dist
+/phpunit.xml
+/phpunit.xml.dist
+/tests/bootstrap.php
+/tests/test-sample.php
